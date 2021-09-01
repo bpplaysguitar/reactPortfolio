@@ -1,0 +1,139 @@
+
+
+/* import Google font */
+@import url('https://fonts.googleapis.com/css2?family=Over+the+Rainbow&family=Shadows+Into+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600;700&family=Over+the+Rainbow&family=Shadows+Into+Light&display=swap');
+
+
+:root {
+  --body-background:#fff;
+  /* nav */
+  --nav-background: hsl(220, 29%, 31%);
+  /* carousel */
+  /* --carousel-body-background:hsl(53, 18%, 88%);
+  --carousel-body-background:hsl(0, 0%, 94%); */
+  --carousel-body-background:hsl(222, 11%, 94%);
+  /* connect */
+  --connect-icon:var(--nav-background);
+}
+
+.btn-dark {
+  background-color: var(--nav-background);
+}
+
+.btn-dark:hover {
+  background-color: hsl(220, 29%, 41%);
+}
+
+body {
+  font-family: 'Catamaran', sans-serif;
+  background-color: var(--body-background);
+}
+
+.navbar {
+  background-color: var(--nav-background);
+}
+
+#navLogo {
+  font-family: 'Over the Rainbow', cursive;
+  /* font-family: 'Shadows Into Light', cursive; */
+}
+
+#navLogoInitials {
+  /* background-color: var(--nav-logo-initials-bg); */
+}
+
+.carousel-item {
+  height: 730px;
+  text-align: center;
+  /* background-color: transparent; */
+}
+
+.carousel-image1,
+.carousel-image2,
+.carousel-image3,
+.carousel-image4,
+.carousel-image5 {
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 500px;
+}
+
+.carousel-image1 {
+  background-image: url("/src/assets/images/manageMeNow.jpg");
+}
+
+.carousel-image2 {
+  background-image: url("/src/assets/images/bike2work.png");
+}
+
+.carousel-image3 {
+  background-image: url("/src/assets/images/readmeGenerator.jpg");
+}
+
+.carousel-image4 {
+  background-image: url("/src/assets/images/employeeTracker.jpg");
+}
+
+.carousel-image5 {
+  background-image: url("/src/assets/images/teamProfileGenerator.jpg");
+}
+
+/* MAIN BODY */
+.jumbotron {
+  color: black;
+  background-image: url("/src/assets/images/glitchbpopacity78.jpg");
+  background-position: center;
+  background-position-y: 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.connect-icon {
+  color: var(--connect-icon);
+}
+
+.connect-icon:hover {
+  color: hsl(220, 29%, 41%);
+}
+
+.carousel-body {
+  background-color: var(--carousel-body-background);
+  color: var(--carousel-body-color);
+}
+
+.footer {
+  background-color: var(--nav-background);
+  color: #acb1bd;
+}
+
+.nowrap {
+  word-wrap: nowrap;
+}
+
+/* RESUME PAGE */
+#resume-frame {
+  height: 90vh;
+}
+
+@media only screen and (max-width:768px) {
+  .carousel-item {
+    height: 580px;
+    text-align: center;
+    /* background-color: transparent; */
+  }
+  
+  .carousel-image1,
+  .carousel-image2,
+  .carousel-image3,
+  .carousel-image4,
+  .carousel-image5 {
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 345px;
+  }
+}
