@@ -74,7 +74,7 @@ function Form() {
           placeholder="Message"
           className="mb-3 input-message"
         />
-        <button type="button" className="col-2 rounded" onClick={handleFormSubmit}>Submit</button>
+        <button type="button" className="col-3 rounded" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
         <div>
