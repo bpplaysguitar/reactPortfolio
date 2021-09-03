@@ -114,6 +114,12 @@ body {
   word-wrap: nowrap;
 }
 
+/* Contact */
+.input-message {
+  height:200px;
+  padding-left: 3px;
+}
+
 /* RESUME PAGE */
 #resume-frame {
   height: 90vh;

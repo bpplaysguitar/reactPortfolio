@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Navbar() {
+function Navbar({ currentPage, handlePageChange }) {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-dark">
@@ -16,24 +16,24 @@ function Navbar() {
         <div class="collapse navbar-collapse ms-5" id="navbarNav">
           <ul class="navbar-nav h6">
             {/* Home */}
-            <li class="nav-item">
-              <a class="nav-link active ms-4 ps-3" href="/"><i class="me-2 bi bi-house-door-fill"></i>Home</a>
-            </li>
+            {/* <li class="nav-item">
+              <a href="/" onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'nav-link active ms-4 ps-3' : 'nav-link ms-4 ps-3'}><i class="me-2 bi bi-house-door-fill"></i>Home</a>
+            </li> */}
             {/* About */}
             <li class="nav-item">
-              <a class="nav-link ms-4 ps-3" href="#about"><i class="me-2 bi bi-person-fill"></i>About</a>
+              <a href="#aboutme" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active ms-4 ps-3' : 'nav-link ms-4 ps-3'}><i class="me-2 bi bi-person-fill"></i>About Me</a>
             </li>
-            {/* Work */}
+            {/* Portfolio */}
             <li class="nav-item">
-              <a class="nav-link ms-4 ps-3" href="#work"><i class="me-2 bi bi-images"></i>Work</a>
+              <a href="#portfolio" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active ms-4 ps-3' : 'nav-link ms-4 ps-3'}><i class="me-2 bi bi-images"></i>Portfolio</a>
             </li>
-            {/* Connect */}
+            {/* Contact */}
             <li class="nav-item">
-              <a class="nav-link ms-4 ps-3" href="#connect"><i class="me-2 bi bi-people-fill"></i>Connect</a>
+              <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active ms-4 ps-3' : 'nav-link ms-4 ps-3'}><i class="me-2 bi bi-people-fill"></i>Contact</a>
             </li>
             {/* Resume */}
             <li class="nav-item">
-              <a class="nav-link ms-4 ps-3" href="/resume.html#resume"><i class="me-2 bi bi-file-earmark-text-fill"></i>Resume</a>
+              <a href="#resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active ms-4 ps-3' : 'nav-link ms-4 ps-3'}><i class="me-2 bi bi-file-earmark-text-fill"></i>Resume</a>
             </li>
           </ul>
         </div>

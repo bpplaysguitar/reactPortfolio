@@ -1,12 +1,13 @@
 import React from 'react';
+import Footer from './Footer'
 
-function Work() {
+function Portfolio() {
   return (
     <div>
    <section class="container my-5">
       
       <div id="myCarousel" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="9000">
-      <h2 class="container pb-3 border-bottom" id="work">Work</h2>
+      <h2 class="container pb-3 border-bottom" id="portfolio">Portfolio</h2>
       <div class="pt-2">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active bg-dark border" aria-current="true"
@@ -120,9 +121,9 @@ function Work() {
     </div>
   
     </section>
-
+<Footer />
     </div>
   );
 }
 
-export default Work;
+export default Portfolio;

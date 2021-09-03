@@ -1,10 +1,13 @@
 import React from 'react';
+import Footer from "./Footer"
 
 function About() {
   return (
     <div>
+   <div class="jumbotron jumbotron-fluid shadow">
+  </div> 
    <section class="container my-5">
-      <h2 class="container pb-3 border-bottom" id="about">About</h2>
+      <h2 class="container pb-3 border-bottom" id="aboutme">About Me</h2>
       <p class="pt-2">
         My name is Brian Palay. I'm a full-stack web developer with a
         particular fondness for front-end development and design. I graduated
@@ -18,6 +21,7 @@ function About() {
       </p>
     </section>
 
+    <Footer />
     </div>
   );
 }
