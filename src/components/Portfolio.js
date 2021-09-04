@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from './Footer';
 import Project from './Project';
 
 const projectItems = [
@@ -151,7 +150,6 @@ function Portfolio() {
   
     </section>
     {/* <Project projectItems={projectItems} /> */}
-<Footer />
     </div>
   );
 }

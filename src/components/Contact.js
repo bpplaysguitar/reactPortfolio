@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from './Footer';
 import Form from './Form';
 
 function Contact() {
@@ -38,7 +37,6 @@ function Contact() {
   </section>
       
     </section>
-    <Footer />
     </div>
   );
 }

@@ -1,6 +1,4 @@
 import React from 'react';
-import Footer from './Footer';
-
 
 function Resume() {
   return (
@@ -23,7 +21,6 @@ function Resume() {
     </div>
 
 </main>
-       <Footer />
     </div>
   );
 }

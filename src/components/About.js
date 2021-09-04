@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from "./Footer"
 
 function About() {
   return (
@@ -20,8 +19,6 @@ function About() {
         new and exciting opportunity to put my passion for creating to work.
       </p>
     </section>
-
-    <Footer />
     </div>
   );
 }
