@@ -1,5 +1,34 @@
 import React from 'react';
-import Footer from './Footer'
+import Footer from './Footer';
+import Project from './Project';
+
+const projectItems = [
+  {
+    id: 1,
+    name: "Project1",
+    img: "./src/assets/images/employeeTracker.jpg"
+  },
+  {
+    id: 2,
+    name: "Project2",
+  },
+  {
+    id: 3,
+    name: "Project3",
+  },
+  {
+    id: 4,
+    name: "Project4",
+  },
+  {
+    id: 5,
+    name: "Project5",
+  },
+  {
+    id: 6,
+    name: "Project6",
+  }
+];
 
 function Portfolio() {
   return (
@@ -121,6 +150,7 @@ function Portfolio() {
     </div>
   
     </section>
+    {/* <Project projectItems={projectItems} /> */}
 <Footer />
     </div>
   );
