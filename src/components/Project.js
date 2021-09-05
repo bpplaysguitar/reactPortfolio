@@ -9,28 +9,28 @@ function Project(props) {
       {props.projectItems.map(projectItems => (
       
       <div>
-      <section class="container">
-      <div class="mt-3 mb-5 border-bottom">
+      <section className="container">
+      <div className="mt-3 mb-5 border-bottom">
 
-      <div class="carousel-inner">
+      <div className="carousel-inner">
         {/* <!-- Project --> */}
-        <div class="carousel-item active">
-          <div class="container d-flex flex-column">
+        <div className="carousel-item active">
+          <div className="container d-flex flex-column" key={projectItems.id}>
             <h2>{projectItems.name}</h2>
-            <div class="shadow border border-2 border-dark mb-3 mx-2 rounded">
-              <div class={projectItems.backgroundImg}>
+            <div className="shadow border border-2 border-dark mb-3 mx-2 rounded">
+              <div className={projectItems.backgroundImg}>
               </div>
             </div>
           </div>
-          <div class="row mt-2">
+          <div className="row mt-2">
             
-            <p class="px-5">{projectItems.languages}
+            <p className="px-5">{projectItems.languages}
             </p>
             <p>
               {/* Link Buttons */}
-              <a class="btn btn-lg btn-dark text-white mx-1" target="_blank"
+              <a className="btn btn-lg btn-dark text-white mx-1" target="_blank" rel="noreferrer"
                 href={projectItems.deployedDemoLink}>{projectItems.deployedDemoBtnText}</a>
-              <a class="btn btn-lg btn-dark text-white mx-1" target="_blank"
+              <a className="btn btn-lg btn-dark text-white mx-1" target="_blank" rel="noreferrer"
                 href={projectItems.repository}>Repository</a>
             </p>
           </div>

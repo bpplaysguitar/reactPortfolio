@@ -48,7 +48,7 @@ function Form() {
   };
 
   return (
-    <div class="container">
+    <div className="container">
       <form className="mb-5 p-4 bg-light form d-flex flex-column border-dark border rounded">
         <input
           value={name}
