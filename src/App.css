@@ -78,7 +78,7 @@ body {
   background-image: url("/src/assets/images/teamProfileGenerator.jpg");
 }
 .project-image6 {
-  background-image: url("/src/assets/images/teamProfileGenerator.jpg");
+  background-image: url("/src/assets/images/javascript-quiz.jpg");
 }
 
 
@@ -120,4 +120,17 @@ body {
 /* RESUME PAGE */
 #resume-frame {
   height: 90vh;
+}
+
+@media screen and (max-width:600px) {
+  
+  .project-image1,
+  .project-image2,
+  .project-image3,
+  .project-image4,
+  .project-image5,
+  .project-image6 {
+  height: 350px;
+}
+
 }
