@@ -22,13 +22,14 @@ TODO: Heroku link
 ![GitHub repo stars](https://img.shields.io/github/stars/bpplaysguitar/reactPortfolio?color=8B00FF&logo=GitHub&logoColor=8B00FF&style=for-the-badge)
 
 ## Description
-I was able to put what I've learned so far to work in updating my professional portfolio website. I enjoyed using Bootstrap to style much of it this time, unlike the first iteration of my portfolio website which was just plain CSS.
+
 
 
 ## Technologies Used
 HTML <br>
 Bootstrap <br>
 CSS <br>
+React.js <br>
 
 
 ## Installation
