@@ -8,7 +8,7 @@ function Project(props) {
       {props.projectItems.map((projectItems) => (
         <div>
             {/* <!-- Project --> */}
-            <div className="project-item active rounded mb-5 border-bottom border-3">
+            <div className="project-item active mb-5 border-bottom border-2">
               <div
                 className="container d-flex flex-column mt-4"
                 key={projectItems.id}
