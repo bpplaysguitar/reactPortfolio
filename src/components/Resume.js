@@ -15,7 +15,7 @@ function Resume() {
       </section>
     </section>
     <div className="container my-4" id="downloadPDF">
-      <a className="connect-icon text-decoration-none"
+      <a className="download-pdf text-decoration-none"
         href="https://docs.google.com/document/d/1WpyxvRmBK-cVAEvmlsP6VVuIk2jKpXs0bbJBGRDWTCE/export?format=pdf"><i
           className="me-1 fas fa-2x fa-file-pdf"></i>Download PDF</a>
     </div>

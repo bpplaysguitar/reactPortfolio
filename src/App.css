@@ -114,6 +114,10 @@ body {
   height: 90vh;
 }
 
+.download-pdf {
+  color: var(--nav-background);
+}
+
 @media screen and (max-width:768px) {
   
   .project-image1,
