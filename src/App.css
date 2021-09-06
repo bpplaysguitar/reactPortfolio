@@ -9,8 +9,8 @@
   /* nav */
   --nav-background: hsl(220, 29%, 31%);
   /* connect */
-  --connect-icon:var(--nav-background);
-  --connect-icon:#fff;
+  --connect-icon:#acb1be;
+  --connect-icon-hover:hsl(0, 0%, 100%);
 }
 
 .btn-dark {
@@ -93,7 +93,7 @@ body {
 }
 
 .connect-icon:hover {
-  color: hsl(220, 29%, 41%);
+  color: var(--connect-icon-hover);
 }
 
 .footer {
