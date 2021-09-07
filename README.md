@@ -5,7 +5,7 @@ Brian Palay <br>
 brianpalay@gmail.com
 
 See the project live here:
-TODO: Heroku link
+www.bpplaysguitar.github.io/reactPortfolio
 
 ![GitHub code size](https://img.shields.io/github/languages/code-size/bpplaysguitar/reactPortfolio?color=FF0000&logo=GitHub&logoColor=FF0000&style=for-the-badge)
 
