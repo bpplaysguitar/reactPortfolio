@@ -49,8 +49,7 @@ git clone https://github.com/bpplaysguitar/reactPrtfolio.git or git clone git@gi
 6. Edit in your code editor and continue to commit, push changes and perform other Git actions using your repository https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html
 
 ## Usage
-
-Animation of application in use
+Application in use
 
 ![screenshot](/public/screenshot.png)
 
