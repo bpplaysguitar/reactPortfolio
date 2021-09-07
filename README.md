@@ -22,6 +22,7 @@ TODO: Heroku link
 ![GitHub repo stars](https://img.shields.io/github/stars/bpplaysguitar/reactPortfolio?color=8B00FF&logo=GitHub&logoColor=8B00FF&style=for-the-badge)
 
 ## Description
+This is a professional portfolio website built using React.js. It allowed me to take many of the skills I learend along the way in HTML, CSS, Bootstrap and more, and refine it all to present it with the technology that is the most important to learn as a developer - React.
 
 
 
@@ -47,13 +48,11 @@ git clone https://github.com/bpplaysguitar/reactPrtfolio.git or git clone git@gi
 
 6. Edit in your code editor and continue to commit, push changes and perform other Git actions using your repository https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html
 
-7. Use Heroku to deploy. See http://www.heroku.com for how to get started.
-
 ## Usage
 
 Animation of application in use
 
-![](assets/images/reactPortfolio.gif)
+![screenshot](assets/images/screenshot.png)
 
 ## Credits
 
