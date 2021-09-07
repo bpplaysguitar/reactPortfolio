@@ -4,8 +4,7 @@ Brian Palay <br>
 612-202-5710 <br>
 brianpalay@gmail.com
 
-See the project live here:
-www.bpplaysguitar.github.io/reactPortfolio
+See the project live here: https://bpplaysguitar.github.io/reactPortfolio/
 
 ![GitHub code size](https://img.shields.io/github/languages/code-size/bpplaysguitar/reactPortfolio?color=FF0000&logo=GitHub&logoColor=FF0000&style=for-the-badge)
 
