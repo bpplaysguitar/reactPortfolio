@@ -52,7 +52,7 @@ git clone https://github.com/bpplaysguitar/reactPrtfolio.git or git clone git@gi
 
 Animation of application in use
 
-![screenshot](assets/images/screenshot.png)
+![screenshot](/public/screenshot.png)
 
 ## Credits
 
