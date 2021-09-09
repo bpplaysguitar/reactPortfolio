@@ -13,7 +13,7 @@ function Navbar({ currentPage, handlePageChange }) {
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse ms-5" id="navbarNav">
+        <div className="collapse navbar-collapse ms-5" id="navbarNav" data-toggle="collapse" data-target=".navbar-collapse">
           <ul className="navbar-nav h6">
             {/* Home */}
             {/* <li className="nav-item">
