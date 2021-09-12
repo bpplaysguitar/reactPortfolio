@@ -15,10 +15,6 @@ function Navbar({ currentPage, handlePageChange }) {
         </button>
         <div className="collapse navbar-collapse ms-5" id="navbarNav" data-toggle="collapse" data-target=".navbar-collapse">
           <ul className="navbar-nav h6">
-            {/* Home */}
-            {/* <li className="nav-item">
-              <a href="/" onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'nav-link active ms-4 ps-3' : 'nav-link ms-4 ps-3'}><i className="me-2 bi bi-house-door-fill"></i>Home</a>
-            </li> */}
             {/* About */}
             <li className="nav-item">
               <a href="#aboutme" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active ms-4 ps-3' : 'nav-link ms-4 ps-3'}><i className="me-2 bi bi-person-fill"></i>About Me</a>
@@ -26,10 +22,6 @@ function Navbar({ currentPage, handlePageChange }) {
             {/* Portfolio */}
             <li className="nav-item">
               <a href="#portfolio" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active ms-4 ps-3' : 'nav-link ms-4 ps-3'}><i className="me-2 bi bi-images"></i>Portfolio</a>
-            </li>
-            {/* Contact */}
-            <li className="nav-item">
-              <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active ms-4 ps-3' : 'nav-link ms-4 ps-3'}><i className="me-2 bi bi-people-fill"></i>Contact</a>
             </li>
             {/* Resume */}
             <li className="nav-item">
