@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <div>
+    <div className="aboutContainer">
    <div className="jumbotron jumbotron-fluid shadow">
   </div> 
    <section className="container my-5">

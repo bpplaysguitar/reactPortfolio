@@ -121,6 +121,10 @@ body {
   color: hsl(220, 29%, 51%);
 }
 
+.aboutContainer {
+  height: 100vh;
+}
+
 @media screen and (max-width:768px) {
   
   .project-image1,
