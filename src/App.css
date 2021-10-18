@@ -44,7 +44,8 @@ body {
 .project-image3,
 .project-image4,
 .project-image5,
-.project-image6 {
+.project-image6,
+.project-image7 {
   background-size:cover;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -54,23 +55,22 @@ body {
 .project-image1 {
   background-image: url("/src/assets/images/manageMeNow.jpg");
 }
-
 .project-image2 {
+  background-image: url("/src/assets/images/enviropact.jpg");
+}
+.project-image3 {
   background-image: url("/src/assets/images/bike2work.jpg");
 }
-
-.project-image3 {
+.project-image4 {
   background-image: url("/src/assets/images/readmeGenerator.jpg");
 }
-
-.project-image4 {
+.project-image5 {
   background-image: url("/src/assets/images/employeeTracker.jpg");
 }
-
-.project-image5 {
+.project-image6 {
   background-image: url("/src/assets/images/teamProfileGenerator.jpg");
 }
-.project-image6 {
+.project-image7 {
   background-image: url("/src/assets/images/javascript-quiz.jpg");
 }
 
@@ -132,7 +132,8 @@ body {
   .project-image3,
   .project-image4,
   .project-image5,
-  .project-image6 {
+  .project-image6,
+  .project-image7 {
   height: 400px;
 }
 
