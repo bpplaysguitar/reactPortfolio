@@ -17,7 +17,7 @@ const projectItems = [
     languages: "JavaScript, React, Apollo, Material UI, GraphQL, Express, Mongoose",
     deployedDemoBtnText: "Deployed",
     deployedDemoLink: "https://enviropact.herokuapp.com/",
-    repository: "https://github.com/Justinean/EnviroPact",
+    repository: "https://github.com/bpplaysguitar/EnviroPact",
     backgroundImg:"project-image2"
   },
   {
