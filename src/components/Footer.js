@@ -6,7 +6,7 @@ function Footer() {
       <div className="container">
       <div className="col-12">
         <ul className="d-inline nav py-4 row d-flex align-items-center text-center">
-            <li className="d-inline me-2 col-5 d-flex justify-content-center align-items-center"> <span className="nowrap"><i className="me-1 far fa-copyright"></i>2021 Brian Palay</span></li>
+            <li className="d-inline me-2 col-5 d-flex justify-content-center align-items-center"> <span className="nowrap"><i className="me-1 far fa-copyright"></i>2023 Brian Palay</span></li>
           <li className="nav-item d-flex justify-content-center align-items-center ms-2 col-1">
             <a className="d-flex flex-column connect-icon text-decoration-none nowrap" href="https://www.linkedin.com/in/brianpalay"
               target="_blank" rel="noreferrer"><i className="fab fa-2x fa-linkedin"></i></a>
