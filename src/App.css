@@ -36,7 +36,7 @@ body {
 }
 
 .project-item {
-  text-align: center;
+  text-align: left;
 }
 
 .project-image1,
@@ -52,11 +52,25 @@ body {
   height: 600px;
 }
 
-.project-image1 {
-  background-image: url("/src/assets/images/manageMeNow.jpg");
+
+  .project-image1 {
+    background-image: url("/src/assets/images/prevena-demo-cover-mobile.jpg");
 }
+
+@media screen and (min-width:768px) {
+  .project-image1 {
+    background-image: url("/src/assets/images/prevena-demo-cover-desktop.jpg");
+  }
+}
+
 .project-image2 {
-  background-image: url("/src/assets/images/enviropact.jpg");
+  background-image: url("/src/assets/images/prevena-central-home-cover-mobile.jpg");
+}
+
+@media screen and (min-width:768px) {
+.project-image2 {
+  background-image: url("/src/assets/images/prevena-central-home-cover-desktop.jpg");
+}
 }
 .project-image3 {
   background-image: url("/src/assets/images/bike2work.jpg");
@@ -134,7 +148,7 @@ body {
   .project-image5,
   .project-image6,
   .project-image7 {
-  height: 400px;
+  height: 520px;
 }
 
 }

@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import About from './About';
 import Portfolio from './Portfolio';
 import Resume from './Resume';
+import Project1 from './Project1';
 
 
 function Header() {
@@ -15,6 +16,9 @@ const renderPage = () => {
   }
   if (currentPage === 'Resume') {
     return <Resume />;
+  }
+  if (currentPage === 'Project1') {
+    return <Project1 />;
   } else {
     return <About />
   }
